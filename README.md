@@ -43,12 +43,4 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
             ├── testF
 ```
 
-## (Optional) Faster Implementation
-
-A faster CUDA implementation of the correlation sampler is provided, which works with mixed precision feature maps.
-```Shell
-cd sampler && python setup.py install && cd ..
-```
-Running `demo.py`, `train_stereo.py` or `evaluate.py` with `--corr_implementation faster_corr` together with `--mixed_precision` will speed up the model without impacting performance.
-
 
