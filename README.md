@@ -6,7 +6,7 @@ As of this work submission, MoCha-Stereo ranks #1 at [KITTI-2015](https://www.cv
 
 ## TODO List
 - [ ] Demos
-- [ ] Code of MoCha
+- [ ] Code of MoCha-Stereo
 - [ ] Code of MoCha-MVS
       
 ## Environment
