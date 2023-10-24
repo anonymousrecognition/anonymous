@@ -49,7 +49,6 @@ A faster CUDA implementation of the correlation sampler is provided, which works
 ```Shell
 cd sampler && python setup.py install && cd ..
 ```
-Running `demo.py`, `train_stereo.py` or `evaluate.py` with `--corr_implementation reg_cuda` together with `--mixed_precision` will speed up the model without impacting performance.
+Running `demo.py`, `train_stereo.py` or `evaluate.py` with `--corr_implementation faster_corr` together with `--mixed_precision` will speed up the model without impacting performance.
 
-To significantly decrease memory consumption on high resolution images, use `--corr_implementation alt`. While this implementation is slower than the default.
 
